@@ -76,7 +76,7 @@ h2 {
 
 /*inicio de home*/
 
-.homeimg img{
+.homeimg img {
     max-width: 100%;
 }
 
@@ -170,6 +170,45 @@ h2 {
 
 /*fin nosotros*/
 
+/*inicio servicios*/
+.servicio{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.servicio img{
+    border-radius: 13px;
+    max-width: 225px;
+    display: block;
+}
+
+.servicio .info h4{
+    color: #2e64a1;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    border-bottom: 2px solid #2e64a1;
+    padding: 10px;
+}
+
+.servicio .info p{
+    font-size: 13px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+/*Fin servicios*/
+
 /*inicio Contacto*/
 
 .contacto {
@@ -216,7 +255,7 @@ h2 {
     height: 100px;
 }
 
-.formulario p:nth-child(4){
+.formulario p:nth-child(4) {
     background-color: orange;
     align-items: start;
 }
@@ -236,69 +275,67 @@ h2 {
     background-color: #2e64a1;
 }
 
-
-
 /*fin contacto*/
 
 /*inicio @media 550*/
 
-@media screen and (max-width:550px){
+@media screen and (max-width:550px) {
+
     /*home*/
-    .columnas{
+    .columnas {
         flex-direction: column;
     }
 
     .Bienvenido,
-    .testimonio{
+    .testimonio {
         width: 100%;
     }
 
-    .holder{
+    .holder {
         padding: 0 16px;
     }
 
-    .personas{
+    .personas {
         flex-wrap: wrap;
         gap: 16px;
     }
 
-    .persona{
+    .persona {
         width: 47%;
     }
 
-    .contacto{
+    .contacto {
         flex-direction: column;
     }
 
-    .datos{
+    .datos {
         display: none;
     }
 
-    header .holder{
+    header .holder {
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0 0 16px 0;
     }
 
-    header h1{
+    header h1 {
         position: static;
         margin-left: 10px;
         font-size: 27px;
     }
 
-    header img{
+    header img {
         max-width: 80px;
     }
 }
 
 /*fin @media 550*/
 
-@media screen and(max-width:320px){
-nav ul.holder{
-    flex-direction: column;
-    padding: 0;
-}
+@media screen and(max-width:320px) {
+    nav ul.holder {
+        flex-direction: column;
+        padding: 0;
+    }
 
 }
-    
