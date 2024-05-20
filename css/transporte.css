@@ -256,7 +256,7 @@ h2 {
 }
 
 .formulario p:nth-child(4) {
-    background-color: orange;
+    /*background-color: orange;*/
     align-items: start;
 }
 
